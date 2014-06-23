@@ -1,0 +1,272 @@
+li.leaf {
+	list-style-type: none;
+	list-style-image: none;
+}
+
+#page {
+	font-size: 1em;
+	line-height: inherit;
+}
+
+#right_cards {
+	float: right; 
+}
+
+#footer_navigation .block ul, .item-list ul {
+	padding: 0px;
+}
+
+.profile #footer h3 { border-bottom: none; }
+
+li { margin-bottom:0.5em !important }
+
+#subnavigation li {
+	list-style-type: none;
+	list-style-image: none;
+}
+
+#subnavigation ul {
+	padding: 0;
+}
+
+#content .content ul, #content .content ol {
+	margin-left: 2.5em;
+}
+
+.ideals #block-csumb_frontpage-2 .card-edit {
+	margin-right: 177px;
+}
+
+#searchhint {
+	padding: 6px;
+	width: 100%;
+	background-color: #d2d990;
+}
+
+#autocomplete {
+	background-color: white;
+}
+
+#autocomplete li {
+	padding: 2px;
+	margin-top: 0px;
+}
+
+#cards li {
+	list-style-type: none;
+}
+
+#right-cards {
+	float: right;
+	width: 150px;
+}
+
+.modalframe-page-wrapper {
+	background-color: white;
+}
+
+.dynamic-no-nav #subnavigation {
+	display: none;
+}
+
+.item-list ul.container {
+	margin: 0px auto;
+}
+
+
+#navbar a.active {color: white; }
+
+.nonav #content { width: 750px; }
+
+.plain-design #content { width: 600px !important }
+.cke_editor tr:hover { background: inherit; }
+
+.404-error #pageheader { width:810px; padding:0; position:relative; border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; -moz-border-radius:8px 8px 0 0; }
+.404-error #pageheader .breadcrumb { display:none; }
+.404-error #pageheader h1 { position:absolute; top:0; left:0; color:#fff; padding:15px; background-color:rgba(0,51,85,0.8); }
+/*.header #subnavigation { float:left; width:210px; }*/
+.404-error #content { float:left; width:480px; }
+
+.doublewide h2.pane-title { font-size:1.3em; font-weight:bold; color:#035;}
+
+html.js input.form-autocomplete {
+  background-image: none;
+}
+
+.block-assign_flag label, .block-assign_flag select, .block-assign_flag input {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+}
+
+.block-assign_flag .form-item {
+	margin: 0px;
+}
+
+.meta {
+	margin-top: 40px;
+}
+
+.page-number { color:#000; background-color:#cd8; border:1px solid #bc8; text-decoration:none; padding:0.2em 0.5em; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; margin-right: 10px;
+}
+
+.column-right {
+	margin-left: 10px;
+	float: right;
+	width: 45%;
+}
+
+
+
+
+.audience a.active {
+	color: #fff;
+}
+
+#homepage .panel {
+	z-index: 10;
+}
+
+.node-teaser .meta {
+	margin-top: 0px;
+}
+.node-teaser {
+	margin-bottom: 15px;
+}
+.dynamic-no-nav #pageheader,.dynamic-no-nav  #content { width:588px !important }
+
+/* some tweaks for the news sidebar */
+#subnavigation .domain { font-size: 80%; }
+	#subnavigation .domain a { font-size: inherit; text-decoration: underline; font-weight: normal;}
+/* images in node body should have a slight padding */
+img.float-left { margin: 10px 15px 10px 0; }
+img.float-right { margin: 10px 0px 10px 15px; }
+
+/*Override the style of the modal dialog box */
+#outerImageContainer { -moz-border-radius: 10px 10px 0 0; -webkit-border-radius: 10px 10px 0 0; border-radius: 10px 10px 0 0;}
+#imageDataContainer { -moz-border-radius: 0 0 10px 10px; -webkit-border-radius: 0 0 10px 10px; border-radius: 0 0 10px 10px; }
+
+/* frontpage-specific styles */
+.front .breadcrumb { display: none; }
+
+
+.audience_links .column { width: 30%; margin-rigth: 10px; float: left; }
+.audience_links .column .item-list ul { }
+#audience-link-search { border: 1px solid #035; font-size: 3em; padding: 10px; width: 568px; }
+#audience-link-results { margin-bottom: 15px; margin-top: 10px; font-size: 1.4em; margin-left: 20px; }
+#audience-link-results a { display: block; }
+.highlight a { color:#000; background-color:#cd8; border:1px solid #bc8; text-decoration:none; padding:0.2em 0.5em; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; }
+	.highlight a:hover { color:#046; background-color:#deb; border-color:#cd8; }
+	
+/* Ajax search boxes need some custom list styles to cinch them up a bit */
+.az-search-result h4 { margin-bottom: 0px; margin-top: 5px; }
+	#subnavigation .az-search-result li { margin-bottom: 0px !important }
+
+
+
+/* cost calculator styles */
+.cost h2 { font-size: 2.5em; text-align: center; margin-bottom: 50px;}
+	.cost .answers { width: 461px; margin-left: auto; margin-right: auto; }
+	.cost .answer { width: 200px; float: left; }
+	.cost .first { padding-right: 30px; border-right: 1px solid #bfbfbf; margin-right:30px;  }
+	.cost .answer a.answer-link { display: block; font-size: 4em; text-align: center; margin-bottom: 20px;}
+	.cost .tuition { color: black; font-weight: bold; }
+	.cost input[type=text] { font-size: 2em; padding: 4px; border: 1px solid #035; margin-right: 10px; }
+	.cost #submit { font-size: 2em; border: 1px solid #035; background: url('images/button-bg.png');}
+	
+/* news index style */
+	.news_index .feature { font-weight: bold; }
+	.news_index .item-list ul { list-style-type: none; }
+	.news_index .byline { font-style: italic; color: #666; font-size: 90%; }
+	.news_index .section { width: 40%; float: left; margin-top: 40px;}
+	.news_index .first { margin-right: 40px; }
+	.news-index-pager a { margin-right: 15px; }
+	
+.twitterlist li a { text-decoration: underline; color: #173362; }
+	.twitterlist a.screenname { text-decoration: none; font-weight: bold; }
+
+/* So it has come to this.... the custom news homepage . */
+.news-homepage #pageheader { width:648px; padding:0; height:276px; background-color:#ccc; position:relative; border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; -moz-border-radius:8px 8px 0 0; }
+	.news-homepage #pageheader .breadcrumb { display:none; }
+	.news-homepage #pageheader img { border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; -moz-border-radius:8px 8px 0 0; }
+	/*.header #subnavigation { float:left; width:210px; -webkit-border-radius:0 0 0 8px; -moz-border-radius:0 0 0 8px; border-radius:0 0 0 8px; }*/
+	.news-homepage #main #content { float:left; width:585px; }
+	.news-homepage .image-descripton { font-style: italic; margin-bottom: 10px; color: #666; size: 90%; }
+
+/* ideals site special navigation */
+.ideals-navigation li { font-size: 1.3em; }
+
+/* Library columns */
+#content-page .node-inner .column { width: 45%; margin-right: 15px; float: left; }
+	#content-page .node-inner .libcolumn { width: 30%; margin-right: 15px; float: left; }	
+	.node-inner .guides a { text-decoration: none; }
+	#content .content .tabs ul { margin-left: 0px; }
+
+/** Some quick access js tweaks */
+.qa_highlight { font-weight: bold; }
+.qa_results_list li { list-style-type: none; }
+.hidden_tip { display: none; }
+.qa_results_list li .hidden_tip { display: inline; color: #222; text-decoration: none;}
+
+/* fullcalendar tables shouldn't have onhover states */
+#fullcalendar tr:hover td { background: inherit; }
+#content .content .event-meta { margin-bottom: 15px; margin-left: 0px; }
+	.event-meta li { list-style-type: none; }
+	.event-meta li { margin-bottom: 2px !important }
+	.event-meta .label { display: block; float: left; width: 90px; margin-right: 10px; font-weight: bold; }
+	.event-map { width: 537px; height: 150px; overflow: hidden; }
+
+/* event listings in subnav shouldn't be bold */
+#subnavigation .eventslist a { font-weight: normal; }
+	.eventslist li.calendar-link { margin-left: 15px; }
+	.block .eventslist ul { padding: 0px;}
+
+.search-reccomended { margin-top: 15px; }
+
+/* ideals website homepage */
+.newslist a.ideals-term { text-decoration: underline; color: #173362; font-weight: bold; }
+
+/*social media links */
+#block-boxes-social_media_icons { margin-top: 15px; margin-bottom: -10px; }
+	#block-boxes-social_media_icons a:hover { background-color: transparent !important }
+	.boxes-box-controls { display: none; }
+	
+/*views table grids*/
+table.views-view-grid tr:hover td { background: white; }
+	table.views-view-grid td { text-align: center; }
+
+.about-home #content-page #content { width: 370px !important }
+
+.news-byline { margin-bottom: 10px; font-weight: bold; }
+
+/* removing the audience search box from the locals page */
+#node-8650 #audience-link-search { display: none; }
+
+/*removing legends from attached documents */
+.node-inner legend, .node-teaser a.login-link, li.taxonomy_term_32 { display: none; }
+
+
+body #block-feedback-form {
+  right: 80px;
+  bottom: 0;
+  overflow: visible;
+}
+
+body #block-feedback-form form {
+	opacity: 1;
+}
+
+body #block-feedback-form .feedback-link {
+	font-size: 14px;
+	background: #78aa00;
+	padding: 10px;
+	border-radius: 5px 5px 0 0;
+	z-index: 500;
+	color: #fff;
+	display: block;
+	text-align: left;
+}
+
+#feedback-form-toggle {
+	display: none !important;
+}
